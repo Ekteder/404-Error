@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript, DocumentProps } from 'next/document'
+import Index from './index'
 
 export default function Document(): JSX.Element {
   return (
@@ -8,8 +9,9 @@ export default function Document(): JSX.Element {
       </Head>
       <body>
         <Main />
-        <NextScript />
+        <Index />
       </body>
     </Html>
   )
 }
+
